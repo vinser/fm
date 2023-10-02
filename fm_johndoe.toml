@@ -1,0 +1,13 @@
+[watch]
+# the path to the folder where files should be moved for processing
+folder = "C:\\folder\\to\\watch"
+# extensions of file types to be processed
+filetypes = ["7z", "^[0-9]{1,3}$"]
+[email] # email message parameters
+sender = "John Doe <jdoe@example.com>"
+addressees = ["address@faraway.com", "address2@nearby.com"]
+[smtp] # smtp server parameters
+host = "smtp.example.com"
+port = 465
+username = "johndoe"
+password = "johnpassword"
